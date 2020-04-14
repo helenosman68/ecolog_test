@@ -1,4 +1,4 @@
-describe ('Crear Usuaurop', function(){
+describe ('Crear Usuario', function(){
 
     it ('Login', function(){
         cy.visit("https://ecolog.softdev.team/auth/login");
@@ -45,5 +45,6 @@ describe ('Crear Usuaurop', function(){
         cy.get('.MuiGrid-grid-xs-12 > .MuiButtonBase-root').click();
         cy.wait(5000);
         cy.get('.jss224 > .MuiButton-contained').click();
+        cy.wait(2000);
     })
 })
